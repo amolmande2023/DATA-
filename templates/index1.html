@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Placement Charges Prediction</title>
+
+    
+    
+</head>
+<html>
+    <body>
+        <h1 style="background-color:rgb(14, 141, 10);">Saurbh</h1>
+        <p style="background-color:rgb(255, 71, 80);">This is a paragraph.</p>
+        
+        <h1 style="text-align:center;">Job Placement Charges Prediction</h1>
+    
+        <b>This text is bold</b>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+        
+        <h1 style="color:Tomato;">Hello World</h1>
+        <p style="color:DodgerBlue;">Lorem ipsum...</p>
+        <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+        <title style="text-align:center;">Medical Insurance Charges Prediction</title>
+    </body>
+</html>
+<style>
+    body{
+        background-image: url("https://kahedu.edu.in/n/wp-content/uploads/2021/11/7-suggestions-for-getting-a-good-job-during-campus-placements-990x500-1-990x500.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; background-size: cover;
+        }
+</style>
+
+    
+
+     
+    <h1> Job Placement Charges Prediction </h1>
+    <form method="POST" action="/predict_charges">
+
+         
+
+        <label><p 
+            style="color:DodgerBlue;">gender:</label>
+            <select name = "gender">
+                <option value = "M">Male</option>
+                <option value = "F">Female</option>
+            </select>
+        </p>
+
+        <br>
+        <br>
+        <label>ssc_percentage:</label>
+        <input type = "text" name = "ssc_percentage">
+        </select>
+
+        <br>
+        <br>
+
+        <label>ssc_board:</label>
+        <select name = "ssc_board">
+            <option value = "Central">Central</option>
+            <option value = "Others">Others</option>
+        </select>
+
+        <br>
+        <br>
+        <label>hsc_percentage:</label>
+        <input type = "text" name = "hsc_percentage">
+        </select>
+
+        <br>
+        <br>
+
+        <label>hsc_board:</label>
+        <select name = "hsc_board">
+            <option value = "Central">Central</option>
+            <option value = "Others">Others</option>
+        </select>
+        <br>
+        <br>
+
+        <label>hsc_subject:</label>
+        <select name = "hsc_subject">
+            <option value = "Commerce">Commerce</option>
+            <option value = "Science">Science</option>
+            <option value = "Arts">Arts</option>
+        </select>
+
+        <br>
+        <br>
+        <label>degree_percentage:</label>
+        <input type = "text" name = "degree_percentage">
+        </select>
+
+        <br>
+        <br>
+
+        <label>undergrad_degree:</label>
+        <select name = "undergrad_degree">
+            <option value = "Comm&Mgmt">Comm&Mgmt</option>
+            <option value = "Sci&Tech">Sci&Tech</option>
+            <option value = "Others">Others</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>work_experience:</label>
+
+        <select name = "work_experience">
+            <option value = "Yes"> Yes </option>
+            <option value = "No"> No</option>
+        </select>
+
+        <br>
+        <br>
+        
+        <label>emp_test_percentage:</label>
+        <input type = "text" name = "emp_test_percentage">
+        </select>
+
+        <br>
+        
+   
+        <br>
+
+        <label>specialisation:</label>
+        <select name = "specialisation">
+            <option value = "Mkt&Fin">Mkt&Fin</option>
+            <option value = "Mkt&HR">Mkt&HR</option>
+        </select>
+        <br>
+        <br>
+        <label>mba_percent:</label>
+        <input type = "text" name = "mba_percent">
+        </select>
+
+        <br>
+        <br>
+
+        
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <p>Your being <b>{{ prediction }}</b></p>
+
+
+    </form>
+
+   
+</body>
+</html>
